@@ -1,0 +1,25 @@
+$spacer: 0.8rem !default;
+
+$io-link: #379FD6;
+$io-blue: #A1E6F9;
+$io-oger: #DFE39E;
+$io-green: #BCECD9;
+$io-softred: #FF9987;
+$io-red: #CE1F00;
+$io-purple: #C8BCEC;
+$io-sand: #F9F6F0;
+$io-placeholder: #E1DACD;
+
+$breakpoints: (
+  'small':  767px,
+  'tablet': 1024px
+) !default;
+
+@mixin respond-to($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+   
+    @media (max-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+}

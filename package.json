@@ -1,0 +1,15 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.php",
+  "author": "Rene Sebastian",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch assets/sass -o public/assets"
+  }
+}

@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="nl">
+<head>
+<meta charset="UTF-8">
+<title>Rene Sebastian -  404</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Rene Sebastian werd eerder ingezet als; cameraman, editor, regisseur, opnameleider, dronepiloot, fotograaf of productieassistent." />
+<meta name="keywords" content="Rene Sebastian, rene, sebastian, rene.io, dutch drone gods, ddg, rene dutch drone gods, cameraman, aftermovie, fotograaf" />
+
+<!-- structured data -->
+<script type="application/ld+json">{
+"@context": "https://schema.org",
+"@type": "ProfessionalService",
+"image": ["https://cdn.renesebastian.com/renesebastian.jpg","https://cdn.renesebastian.com/headers/ogimage_renesebastian.jpg"],
+"name": "Rene Sebastian",
+"brand": "Rene Sebastian",
+"founder": "Rene Sebastian",
+"slogan": "Creatief beeldmaker",
+"telephone": "+31640538368",
+"priceRange": "$$",
+"knowsAbout": "videoproductie, drone, dutch drone gods, cameraman, editor, regisseur, opnameleider, dronepiloot, productieassistent, fotograaf",
+"address": {"@type": "PostalAddress","addressLocality": "Eindhoven","addressCountry": "NL"},
+"vatID": "NL001847674B08"}</script>
+
+<!-- keeping mark happy -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rene Sebastian -  404">
+<meta property="og:site_name" content="Renesebastian.nl">
+<meta property="og:description" content="Rene Sebastian is een creatieveling gedreven door passie. Voor videoproductie, fotografie en... daag me uit!">
+<meta property="og:image" content="https://cdn.renesebastian.com/headers/ogimage_renesebastian.jpg">
+<meta name="image" content="https://cdn.renesebastian.com/headers/ogimage_renesebastian.jpg">
+<meta property="og:url" content="https://www.renesebastian.nl/contact">
+
+<meta name="copyright" content="2022 Rene Sebastian" />
+<meta name="author" content="Rene Sebastian" />
+<meta name="revisit-after" content="7 days" />
+<meta name="rating" content="general" />
+<meta name="robots" content="index,follow" />
+<meta name="robots" content="All" />
+
+<!-- favi and appicons -->
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://cdn.renesebastian.com/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://cdn.renesebastian.com/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://cdn.renesebastian.com/assets/favicon-16x16.png">
+<link rel="mask-icon" href="https://cdn.renesebastian.com/assets/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="/assets/reneio.css">
+
+<!-- okay i admit, i want some insights too -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-40623174-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-40623174-3');
+</script>
+
+<!-- end of meta heading --></head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/" title="Home"><img src="https://cdn.renesebastian.com/assets/rene-io.svg" title="Rene.io" alt="Rene.io"></a>
+            <li><a href="/videoproductie" title="Videos door Rene Sebastian">videoproductie</a></li>
+            <li><a href="/fotografie" title="Fotografie van Rene Sebastian">fotografie</a></li>
+            <li><a href="/over-mij" title="Over Rene Sebastian">over mij</a></li>
+            <li><a href="/contact" title="Contact Rene Sebastian">contact</a></li>
+            <li><a href="https://www.rene.io" title="English version">en</a></li>     
+        </ul>
+    </nav>
+<div class="container">
+  <div class="intro notfound">
+      <div class="image" title="Rene Sebastian - foto door Alexander Schippers"></div>
+      <h1>Content niet gevonden</h1>
+      <p>Ik weet niet wacht je zocht, maar ik kan het helaas niet vinden! Geen probleem, je kan zo terug naar de <a href="/" title="Home">homepage</a>!</p>
+        <address class="m-b-3">
+        <dl>
+            <dt>E-mail:</dt>
+            <dd><a href="mailto:info@renesebastian.nl">info@renesebastian.nl</a></dd>
+            
+            <dt>Tel:</dt>
+            <dd><a href="tel:0031640538368">+316 40 538 368</a></dd>
+
+            <dt>KVK:</dt>
+            <dd>61478873</dd>
+
+            <dt>BTW/VAT:</dt>
+            <dd>NL001847674B08</dd>
+        </dl>    
+</address>           </div>
+</div>
+
+<div class="footer">Rene Sebastian 2014 - 2022 All rights reserved - alle videos and foto's mogen niet herpubliceerd, gekopieerd, afgedrukt of gebruikt worden in elke vorm of medium zonder toestemming.</div> </body>
+</html>

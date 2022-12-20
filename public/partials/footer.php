@@ -1,0 +1,1 @@
+<div class="footer">Rene Sebastian 2014 - <?php echo date('Y'); ?> All rights reserved - alle videos and foto's mogen niet herpubliceerd, gekopieerd, afgedrukt of gebruikt worden in elke vorm of medium zonder toestemming.</div> 

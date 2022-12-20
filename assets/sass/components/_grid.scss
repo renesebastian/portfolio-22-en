@@ -1,0 +1,178 @@
+.container{
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: $spacer;
+    position: relative;
+    
+    &.breakout{
+      max-width: 1350px;
+      margin-top: $spacer*2;
+      margin-bottom: $spacer*4;
+      
+      @include respond-to('small') {
+        margin: 0;
+      }
+    }
+  }
+
+  .intro {
+    position: relative;
+
+    h1 { 
+      position: relative;
+      max-width: 700px;
+      word-break: break-word;
+      font-size: 100px;
+      z-index: 2;
+      line-height: 110px;    
+      margin-top: 30px;
+      margin-bottom: $spacer*3;
+      text-shadow: 1px 1px 15px $io-sand;
+      
+      @include respond-to('tablet') {
+        max-width: 600px;
+        font-size: 85px;
+        line-height: 100px; 
+      }
+      
+      @include respond-to('small') {
+        font-size: 60px;
+        line-height: inherit;
+        margin-bottom: $spacer;
+      }
+    }
+
+    p, address { 
+      position: relative;
+      max-width: 700px;
+      z-index: 2;
+      font-size: 21px;
+      line-height: 34px;
+      padding-left: 3px; 
+    }
+    
+    .image { 
+      position: absolute;
+      z-index: 1;
+      top: 20px; 
+      right: 0;
+      width: 350px;
+      aspect-ratio: 4/5;
+      border-radius: 10px;
+      background-color: $io-placeholder;
+      background-size: cover;
+      background-position: center center;
+      background-image: url('https://cdn.renesebastian.com/renesebastian_@2x.jpg');
+      box-shadow: 3px 3px 6px 0 #C3B79F;
+      
+      @include respond-to('tablet') {
+        width: 300px;
+      }
+      
+      @include respond-to('small') {
+       display: none;
+      }
+    } 
+
+  &.about .image { 
+      background-image: url('https://cdn.renesebastian.com/assets/renesebastian_paaspop.jpg');
+  }
+  &.drone .image { 
+    background-image: url('https://cdn.renesebastian.com/assets/renesebastian_drone_page.jpg');
+  }
+  &.video .image { 
+    background-image: url('https://cdn.renesebastian.com/assets/renesebastian_videos.jpg');
+  }
+  &.photo .image { 
+    background-image: url('https://cdn.renesebastian.com/assets/renesebastian_photo.jpg');
+  }
+  &.notfound .image { 
+    background-image: url('https://media.giphy.com/media/cwTtbmUwzPqx2/giphy.gif');
+  }    
+}
+
+section h3, section h4{
+    font-size: 21px;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    margin-bottom: $spacer*2;
+    
+    &:after {
+      content: "";
+      height: 12px;
+      position: absolute;
+      bottom: 0px;
+      z-index: -1;
+      left: -4px;
+      right: -10px;
+      -webkit-transition: height 150ms ease-in-out;
+      -moz-transition: height 150ms ease-in-out;
+      -o-transition: height 150ms ease-in-out;
+      transition: height 150ms ease-in-out;
+    }
+    &.green:after{
+      background: $io-green;
+    }
+    &.blue:after{
+      background: $io-blue;
+    }
+    &.oger:after{
+      background: $io-oger;
+    }
+    &.red:after{ 
+      background: $io-softred;
+    }
+    &.purple:after{ 
+      background: $io-purple;
+    }
+  }
+
+.sections{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    margin: -12px;
+  }
+  
+  section{
+    padding: 12px;
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+    
+    @include respond-to('small') {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  address dl {
+    max-width: 350px;
+    margin-top: $spacer/1.5;
+    dt,
+    dd {
+      float: left;
+      padding: 0;
+      line-height: 1.7;
+    }
+    dt {
+      width: 30%;
+    }
+    dd {
+      width: 70%;
+      font-weight: 100;
+    }
+    &:after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  }
+  
+  .footer {
+    text-align: center;
+    font-size: 80%;
+    font-weight: 300;
+    color: #95a5a6;
+    padding: $spacer*2 0;
+  }
