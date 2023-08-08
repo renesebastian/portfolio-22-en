@@ -1,9 +1,9 @@
-<p>Hopelijk heb je kunnen vinden waar je naar zocht, of zag je iets wat je aan stond! Check anders ook de <a href="/over-mij" title="Over Rene Sebastian">over mij</a> pagina. Als je nog vragen hebt over <a href="/videoproductie" title="Videos van Rene Sebastian">videoproducties</a>, <a href="/fotografie" title="Fotografie van Rene Sebastian">fotografie</a> of een andere creatieve uitdaging, neem dan gerust contact met me op!</p>
+<p>Hopefully you found what you where looking for. If not, maybe the <a href="/about" title="About Rene Sebastian">about page</a> can help you out. If you have any questions about <a href="/photography" title="photo collections by rene sebastian">photo</a>, <a href="/videoproduction" title="videos by Rene Sebastian">video</a> or any other creative challenge, please reach out to me;</p>
 <p>Rene.io / Rene Sebastian</p>
 <address class="m-b-3">
   <dl>
       <dt>E-mail:</dt>
-      <dd><a href="mailto:info@renesebastian.nl">info@renesebastian.nl</a></dd>
+      <dd><a href="mailto:info@rene.io">info@rene.io</a></dd>
       
       <dt>Tel:</dt>
       <dd><a href="tel:0031640538368">+316 40 538 368</a></dd>

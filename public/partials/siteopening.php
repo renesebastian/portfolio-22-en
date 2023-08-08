@@ -1,13 +1,13 @@
 <div class="container">
   <div class="intro">
-    <div class="image" title="Rene Sebastian - foto door Alexander Schippers"></div>
+    <div class="image" title="Rene Sebastian - photo by Alexander Schippers"></div>
     <h1>
       Rene
       Sebastian
-      Creatief 
-      Beeldmaker
+      Visual
+      Artist
     </h1>
-    <p>Of zoals anderen me eerder inschakelde als; cameraman, editor, regisseur, opnameleider, dronepiloot, fotograaf of productieassistent. Maak er van wat je wil, zolang we samen maar iets tofs neerzetten!</p><p>Aangenaam; Rene Sebastian</p>
+    <p>Or as others previously hired me as; camera operator, editor, director, 1st AD, drone pilot, photographer or production assistant. Choose whatever you want it to be, aslong as we can make something awesome!</p><p>Nice to meet you; Rene Sebastian</p>
     </div>
   </div>
 </div>

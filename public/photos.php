@@ -2,39 +2,38 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="nl">
 <head>
 <meta charset="UTF-8">
-<title>Rene Sebastian - Digitale en analoge fotografie gedreven door passie</title>
+<title>Rene.io - Photography</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="Rene Sebastian is gespecialiseerd in analoge fotografie, zowel voor artiesten, evenementen als festivals. Pure momenten op film, digitaal aangeleverd." />
-<meta name="keywords" content="Rene Sebastian, rene, sebastian, rene.io, dutch drone gods, ddg, rene dutch drone gods, cameraman, aftermovie, fotograaf" />
+<meta name="description" content="Rene Sebastian full service videoproduction and photography" />
+<meta name="keywords" content="Rene Sebastian, rene, sebastian, rene.io, dutch drone gods, ddg, rene dutch drone gods, camera, cameraoperator, aftermovie, photography" />
 
 <!-- structured data -->
 <script type="application/ld+json">{
 "@context": "https://schema.org",
 "@type": "ProfessionalService",
 "image": ["https://cdn.renesebastian.com/renesebastian.jpg","https://cdn.renesebastian.com/headers/ogimage_renesebastian.jpg"],
-"@id": "https://www.renesebastian.nl/",
+"@id": "https://www.rene.io/",
 "name": "Rene Sebastian",
-"brand": "Rene Sebastian",
+"brand": "Rene.io",
 "founder": "Rene Sebastian",
-"slogan": "Creatief beeldmaker",
-"url": "https://www.renesebastian.nl/fotografie",
+"slogan": "Rene.io - Visual Artist",
+"url": "https://www.rene.io/photography",
 "telephone": "+31640538368",
 "priceRange": "$$",
-"knowsAbout": "videoproductie, drone, dutch drone gods, cameraman, editor, regisseur, opnameleider, dronepiloot, productieassistent, fotograaf",
+"knowsAbout": "videoproductie, drone, dutch drone gods, camera operator, editor, director, 1st AD, dronepilot, production assistant, PA, photography",
 "address": {"@type": "PostalAddress","addressLocality": "Eindhoven","addressCountry": "NL"},
 "vatID": "NL001847674B08"}</script>
 
 <!-- keeping mark happy -->
 <meta property="og:type" content="website">
-<meta property="og:title" content="Videoproductie Rene Sebastian - Creatief beeldmaker">
-<meta property="og:site_name" content="Renesebastian.nl">
-<meta property="og:description" content="Rene Sebastian is een creatieveling gedreven door passie. Voor videoproductie, fotografie en... daag me uit!">
+<meta property="og:title" content="Rene Sebastian - Photography">
+<meta property="og:description" content="Rene Sebastian a visual artist, specialized in videoproduction and photography">
 <meta property="og:image" content="https://cdn.renesebastian.com/headers/ogimage_renesebastian.jpg">
 <meta name="image" content="https://cdn.renesebastian.com/headers/ogimage_renesebastian.jpg">
-<meta property="og:url" content="https://www.renesebastian.nl/fotografie">
+<meta property="og:url" content="https://www.rene.io/photography">
 
 <!-- language alternates -->
-<link rel="canonical" href="https://www.renesebastian.nl/fotografie" /><link rel="alternate" hreflang="nl-nl" href="https://www.renesebastian.nl/fotografie" /><link rel="alternate" hreflang="en-en" href="https://www.rene.io/photography" /> 
+<link rel="canonical" href="https://www.rene.io/photography" /><link rel="alternate" hreflang="nl-nl" href="https://www.renesebastian.nl/fotografie" /><link rel="alternate" hreflang="en-en" href="https://www.rene.io/photography" /> 
 
 <?php require_once $_SERVER['DOCUMENT_ROOT'].'/partials/staticmeta.php'; ?>
 </head>
@@ -44,9 +43,9 @@
 <div class="container">
   <div class="intro photo">
       <div class="image" title="Rene Sebastian"></div>
-      <h1>Digitale & analoge fotografie</h1>
-	  <p>Begonnen als concertfotograaf en verder ontwikkeld tot documentaire fotograaf. Vanaf 2018 weer helemaal verliefd geworden op analoge fotografie (film fotografie) en heb hier gelukkig al aardig wat foto projecten mee mogen uitvoeren. Ik hou er van om onzichtbaar, maar wel ín het moment te zijn. De échte ruwe emoties en momenten vastleggen.</p>
-      <p>Onderstaande een selectie waar ik écht gelukkig van werd om te produceren. Variërend van analoge en digitale fotografie. Iets op het oog? <a href="/contact" title="Contact Rene Sebastian">Laat het me weten!</a></p>
+      <h1>Digital and analog photography</h1>
+	    <p>Started out as concert photographer, I developed myself as a documentary photographer. Along the way I totally fell in love with analog photography again. I like to be invisible on a shoot day, catching the real and pure emotions. Staging a photo is not for me.</p>
+      <p>The following selection of photos are the onces I'm most proud of, that touched me, and the client. Varying from analog and digital photos. You got an assigment for me? <a href="/contact" title="Contact Rene Sebastian">Please do reach out!</a></p>
   </div>
 </div>
 <div class="container breakout">

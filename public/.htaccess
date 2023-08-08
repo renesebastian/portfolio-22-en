@@ -3,6 +3,31 @@
 Header set Cache-Control "max-age=2628000, public"
 </filesMatch>
 
+Redirect 302 /nas http://QuickConnect.to/renesebastian
+Redirect 302 /devon https://www.youtube.com/watch?v=zSlO0rDRD6Q
+Redirect 302 /drones https://www.youtube.com/watch?v=yct2ozzrRr8
+Redirect 302 /fbd https://www.youtube.com/watch?v=bOWkkoczEPQ
+Redirect 302 /bando https://www.youtube.com/watch?v=kM9YmPw277k
+Redirect 302 /iceland https://www.youtube.com/watch?v=d4_QtoaB64Q
+Redirect 302 /ice https://www.youtube.com/watch?v=d4_QtoaB64Q
+Redirect 302 /mwcs https://vimeo.com/225670191
+Redirect 302 /bcn https://www.youtube.com/watch?v=Ps-_ZX0HMgs
+Redirect 302 /BCN https://www.youtube.com/watch?v=Ps-_ZX0HMgs
+Redirect 302 /nyc https://www.youtube.com/watch?v=VXmSZ0XLeV0
+Redirect 302 /NYC https://www.youtube.com/watch?v=VXmSZ0XLeV0
+Redirect 302 /newyork https://www.youtube.com/watch?v=VXmSZ0XLeV0
+Redirect 302 /NEWYORK https://www.youtube.com/watch?v=VXmSZ0XLeV0
+Redirect 302 /newyorkcity https://www.youtube.com/watch?v=VXmSZ0XLeV0
+Redirect 302 /NEWYORKCITY https://www.youtube.com/watch?v=VXmSZ0XLeV0
+Redirect 302 /ldn https://www.youtube.com/watch?v=PgWylnjdpPU&t=0s&index=2&list=PL6qlVrUcrKbZ8aIQDaFv8_u9RlrKL2ENu
+Redirect 302 /lndn https://www.youtube.com/watch?v=PgWylnjdpPU&t=0s&index=2&list=PL6qlVrUcrKbZ8aIQDaFv8_u9RlrKL2ENu
+Redirect 302 /london https://www.youtube.com/watch?v=PgWylnjdpPU&t=0s&index=2&list=PL6qlVrUcrKbZ8aIQDaFv8_u9RlrKL2ENu
+Redirect 302 /londen https://www.youtube.com/watch?v=PgWylnjdpPU&t=0s&index=2&list=PL6qlVrUcrKbZ8aIQDaFv8_u9RlrKL2ENu
+Redirect 302 /LDN https://www.youtube.com/watch?v=PgWylnjdpPU&t=0s&index=2&list=PL6qlVrUcrKbZ8aIQDaFv8_u9RlrKL2ENu
+Redirect 302 /LNDN https://www.youtube.com/watch?v=PgWylnjdpPU&t=0s&index=2&list=PL6qlVrUcrKbZ8aIQDaFv8_u9RlrKL2ENu
+Redirect 302 /LONDON https://www.youtube.com/watch?v=PgWylnjdpPU&t=0s&index=2&list=PL6qlVrUcrKbZ8aIQDaFv8_u9RlrKL2ENu
+Redirect 302 /crypto https://bitvavo.com/?a=EC2060E402
+
 RewriteEngine On
 RewriteCond %{HTTP_HOST} !^www\.
 RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
@@ -13,14 +38,18 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 #Default rewrites
 RewriteRule ^bc index.php
 RewriteRule ^sitemap\.xml$ sitemap.php [L]
+RewriteRule ^go go.html
 
 #Default rewrites
-RewriteRule ^over-mij$ about.php
+RewriteRule ^about$ about.php
 RewriteRule ^contact$ contact.php
-RewriteRule ^videoproductie$ videos.php
+RewriteRule ^videoproduction$ videos.php
 RewriteRule ^videos$ videos.php
 RewriteRule ^video/([^/]+)/?$ videos.php
-RewriteRule ^fotografie$ photos.php
-RewriteRule ^collectie/([^/]+)/?$ photos.php
-RewriteRule ^droneracing$ drone.php
+RewriteRule ^photography$ photos.php
+RewriteRule ^collection/([^/]+)/?$ photos.php
 RewriteRule ^drone$ drone.php
+
+#301 content from older links to new links
+Redirect 301 /collections /photography
+Redirect 301 /droneracing /drone

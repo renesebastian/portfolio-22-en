@@ -1,18 +1,19 @@
+<?php require_once $_SERVER['DOCUMENT_ROOT'].'/partials/getdata.php'; ?>
 <div class="sections">
     <section>
         <h3 class="green">Events</h3>
-        <?php require_once $_SERVER['DOCUMENT_ROOT'].'/partials/section_events.php'; ?>
+        <?php displayRecords("events", $allRecords); ?>
     </section>
     <section>
         <h3 class="red">Broadcast & live</h3>
-        <?php require_once $_SERVER['DOCUMENT_ROOT'].'/partials/section_broadcast.php'; ?>
+        <?php displayRecords("broadcast", $allRecords); ?>
         <h3 class="oger">Documentary</h3>
-        <?php require_once $_SERVER['DOCUMENT_ROOT'].'/partials/section_docu.php'; ?>
+        <?php displayRecords("docu", $allRecords); ?>
     </section>        
     <section>
         <h3 class="blue">Commercials & corporate</h3>
-        <?php require_once $_SERVER['DOCUMENT_ROOT'].'/partials/section_commerce.php'; ?>
+        <?php displayRecords("commercial", $allRecords); ?>
         <h3 class="purple">Music videos</h3>
-        <?php require_once $_SERVER['DOCUMENT_ROOT'].'/partials/section_musicvideos.php'; ?>
+        <?php displayRecords("musicvideos", $allRecords); ?>
   <section>
 </div>

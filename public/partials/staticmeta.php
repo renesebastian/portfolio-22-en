@@ -1,4 +1,4 @@
-<meta name="copyright" content="2022 Rene Sebastian" />
+<meta name="copyright" content="<?php echo date('Y'); ?> Rene Sebastian" />
 <meta name="author" content="Rene Sebastian" />
 <meta name="revisit-after" content="7 days" />
 <meta name="rating" content="general" />
@@ -15,7 +15,7 @@
 <meta name="theme-color" content="#ffffff">
 
 <!-- css -->
-<link rel="stylesheet" type="text/css" href="//cdn.renesebastian.com/assets/css/reneio-4c25a2b5.css">
+<link rel="stylesheet" type="text/css" href="//cdn.renesebastian.com/assets/css/reneio-4c25a2b6.css">
 
 <!-- okay i admit, i want some insights too -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-40623174-2"></script>
